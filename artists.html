@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAMS Artists Page</title>
+     <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="font-awsome/fonts/fontawesome-webfont.svg">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/artists.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#"  class="logo">
+                Yams
+            </a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="index.html"  class=" list "><span>Home</span></a></li>
+                <li><a href="artists.html" class="list active"><span>Artists</span></a></li>
+                <li><a href="shop.html" class="list"><span>Shop</span></a></li>
+                <li><a href="#" class="list"><span>Blogs</span></a></li>
+                <li><a href="#" class="list"><span>Album/(EP)</span></a></li>
+                <li><a href="songs.html" class="list"><span>Songs</span></a></li>
+                <li><a href="#" class="list"><span>Tickets</span></a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <div class="shoes_bx">
+                <nav>
+                    <h6>Man <i class="fa fa-chevron-right"></i> Nike <i class="fa fa-chevron-right"> <span>All Shoes</span></i>  </h6>
+                </nav>
+                <section>
+                    <div class="title_sortby">
+                        <h4>shoes</h4>
+                        <div class="select_sortby">
+                            <button id="sortby_btn">
+                                <h5>Sort By</h5>
+                                <i class="fa fa-chevron-down"></i>
+                            </button>
+                            <div class="sortby_opt">
+                                <li id="newest">Newest</li>
+                                <li id="all_shoes">All Shoes</li>
+                                <li id="low">Low</li>
+                                <li id="high">High</li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="sect">
+                <ul>
+                    <li class="artistlist activated"  data-filter="all">All</li>
+                    <li class="artistlist" data-filter="hiplife">Hiplife</li>
+                    <li class="artistlist" data-filter="hiphop">Hiphop / rap</li>
+                    <li class="artistlist" data-filter="asaaka">Asaaka</li>
+                    <li class="artistlist" data-filter="afrodancehall">Afro dancehall</li>
+                    <li class="artistlist" data-filter="ragge/dancehall">ragge / dancehall</li>
+                    <li class="artistlist" data-filter="afrobeat">Afrobeat</li>
+                    <li class="artistlist" data-filter="hilife">Hi Life</li>
+                    <li class="artistlist" data-filter="gospel">Gospel</li>
+                    <li class="artistlist" data-filter="azonta">Azonto(Dance)</li>
+                    <li class="artistlist" data-filter="instrumental">Producers</li>
+                </ul>
+                <div class="artists">
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="instrumental">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/1900Rugrat.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Dj Brezezy</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;" data-item="ragge/dancehall">
+                        <a href="artist.html" >
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Yung-Thug-236x300.png" alt="artistsPic">
+                                <figcaption class="artist_caption">shatta wale</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="afrodancehall">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Tee-Grizzly-236x300.png" alt="artistsPic">
+                                <figcaption class="artist_caption">stone bwoy</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="hiplife">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Chikoruss.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Wendy Shay</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="hiplife">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Fetty-Wap-235x300.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Kwaku DMC</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;" data-item="hilife">
+                        <a href="artist.html" >
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Hunxho.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Lord Paper</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;" data-item="hiphop">
+                        <a href="artist.html" >
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Jordan-Adetunji.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Medikal</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="hiphop">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Baby-Grizzley.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Kwesi Authur</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="hiplife">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Mary-J.-Blige-236x300.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Gyajie</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="hiplife">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/El-Snappo.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Beeztrap</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="mobile">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Gunna.png">
+                                <figcaption class="artist_caption">Fameye</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;"  data-item="asaaka">
+                        <a href="artist.html">
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/Lil-Keed-236x300.png" alt="artistsPic">
+                                <figcaption class="artist_caption">Yaw Tog</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;" data-item="afrobeat">
+                        <a href="artist.html" >
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/HeadHuncho-Amir.png" alt="artistsPic">
+                                <figcaption class="artist_caption">darko vibes</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>
+                    <div class="artist_entry artistBox" style="opacity: 1;" data-item="hiplife">
+                        <a href="artist.html" >
+                            <figure class="artist_figure">
+                                <img class="artist_img" src="images/No-Savage-236x300.png" alt="artistsPic">
+                                <figcaption class="artist_caption">King Paluta</figcaption>
+                            </figure>
+                            <nav class="artist_social social">
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-chrome"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-apple"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-spotify"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-youtube"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-snapchat"></span>
+                                </a>
+                                <a href="#" class="social_link">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </nav>
+                        </a>
+                    </div>                    
+                </div>
+
+            </div>
+            <div class="shoes_bx">
+                <div class="pagination">
+                    <a href="#"><i class="fa fa-chevron-left"></i></a>
+                    <h6>Next Product Men's</h6>
+                    <a href="#"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>            
+        </main>
+        <div class="copyright">
+            <p>@KWAKU_YEB - TECHTRO</p>
+        </div>
+        <!-- to top button -->
+        <a href="#" class="to-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </section>
+    <script src="js/jquery-331.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        let artistlist = document.querySelectorAll('.artistlist');
+        let artistBox = document.querySelectorAll('.artistBox');
+
+        for(let i =0; i<artistlist.length; i++){
+            artistlist[i].addEventListener('click', function(){
+                for(let j =0; j<artistlist.length; j++){
+                    artistlist[j].classList.remove('activated');
+                }
+                this.classList.add('activated');
+
+                let dataFilter = this.getAttribute('data-filter');
+                
+                for( let k= 0; k<artistBox.length; k++){
+                    artistBox[k].classList.remove('active');
+                    artistBox[k].classList.add('hide');
+
+                    if(artistBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all"){
+                        artistBox[k].classList.remove('hide');
+                        artistBox[k].classList.add('active');
+                    }
+                }
+            })
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAMS shop</title>
+     <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="font-awsome/fonts/fontawesome-webfont.svg">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/songs.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#"  class="logo">
+                Yams
+            </a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="index.html"  class=" list"><span>Home</span></a></li>
+                <li><a href="artists.html" class="list"><span>Artists</span></a></li>
+                <li><a href="shop.html" class="list"><span>Shop</span></a></li>
+                <li><a href="#" class="list"><span>Blogs</span></a></li>
+                <li><a href="#" class="list"><span>Album/(EP)</span></a></li>
+                <li><a href="songs.html" class="list active"><span>Songs</span></a></li>
+                <li><a href="#" class="list"><span>Tickets</span></a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <form action=""  class="search">
+                <i class="fas fa-search searcher"></i>
+                <input type="text" placeholder="What song  are you looking for? ">
+                <button >
+                    <i class="fas fa-folder-open"></i>
+                </button>
+            </form>
+            <div class="shoes_bx">
+                <section>
+                    <div class="title_sortby">
+                        <h4 style="color: #fff !important; text-transform: uppercase; font-size: 10px;">
+                            <a href="" style="color: #fff;">(F)</a> →
+                            <a href="" style="color: #fff;">Hilife</a> →
+                            <a href="" style="color: #fff;">new release</a>                                
+                        </h4>
+                        <div class="select_sortby">
+                            <button id="sortby_btn">
+                                <h5>Sort By</h5>
+                                <i class="fa fa-chevron-down"></i>
+                            </button>
+                            <div class="sortby_opt">
+                                <li id="newest">Newest</li>
+                                <li id="all_shoes">All Shoes</li>
+                                <li id="low">Low</li>
+                                <li id="high">High</li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="sect">
+                <ul>
+                    <li class="artistlist activated"  data-filter="all">All</li>
+                    <li class="artistlist" data-filter="hiplife">Hiplife</li>
+                    <li class="artistlist" data-filter="hiphop">Hiphop / rap</li>
+                    <li class="artistlist" data-filter="asaaka">Asaaka</li>
+                    <li class="artistlist" data-filter="afrodancehall">Afro dancehall</li>
+                    <li class="artistlist" data-filter="ragge/dancehall">ragge / dancehall</li>
+                    <li class="artistlist" data-filter="afrobeat">Afrobeat</li>
+                    <li class="artistlist" data-filter="hilife">Hi Life</li>
+                    <li class="artistlist" data-filter="gospel">Gospel</li>
+                    <li class="artistlist" data-filter="azonta">Azonto(Dance)</li>
+                    <li class="artistlist" data-filter="instrumental">Producers</li>
+                </ul>
+
+            </div>
+                <div class="arti">
+                    <!-- songs begin -->
+                    <div class="pro-slide">
+                        <div class="header-section">
+                            <div class="title-box">
+                                <h2>FRESH RELEASE</h2>
+                                <h2 class="showall">
+                                    <a href="">show all</a>
+                                    
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="slider-wrapper">
+                            <div class="img-carousel slider"> 
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Chikoruss.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>Amount</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Shatta Wale</button>  
+                                        </h2>                                     
+                                    </div>                
+                                </a>
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/El-Snappo.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>Body</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Black Sherif</button>  
+                                        </h2>                                      
+                                    </div>                
+                                </a>                
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Jordan-Adetunji.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>Rebel Music</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Black Sherif</button>  
+                                        </h2>                                     
+                                    </div>               
+                                </a>                
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Montana-700.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>Finish Line(feat sarkodie & jayso)</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Dee Money,</button> <button href="">Sarkodie,</button> <button href="">jayso,</button>              
+                                        </h2>                                       
+                                    </div>                
+                                </a>                
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Gunna.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>Continental(feat Shallipopi)</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">King Promise,</button> <button href="">Shallipopi</button>           
+                                        </h2>
+                                    </div>                
+                                </a>                
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Baby-Grizzley.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>One Two One Two (Mad Over You Cover)</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Ras Kuuku</button>         
+                                        </h2>                                      
+                                    </div>                
+                                </a>                
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Tee-Grizzly-236x300.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>Hold the bed(Ta Ta)</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Pappy Jonah</button>         
+                                        </h2>
+                                    </div>                 
+                                </a>                
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Fetty-Wap-235x300.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>I'm in love with you(feat Efya)</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Pappy Jonah,</button> <button href="">Efya</button>         
+                                        </h2>
+                                    </div>                
+                                </a>                
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Pink-Panthress-1-236x300.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>Tomorrow</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Shatta Wale</button>         
+                                        </h2>                                       
+                                    </div>                
+                                </a>               
+                                <a class="items" href="">
+                                    <div class="items-image" style="background-image: url(images/Yung-Thug-236x300.png);"></div>
+                                    <div class="items-content">
+                                        <h2 class="product-title"> <span><b>1 Gad</b></span> </h2>   
+                                        <h2 class="artistName">
+                                            <button href="">Stone Bwoy</button>         
+                                        </h2>                                        
+                                    </div>                 
+                                </a>               
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop begins -->                 
+                </div>
+            <div class="shoes_bx">
+                <div class="pagination">
+                    <a href="#"><i class="fa fa-chevron-left"></i></a>
+                    <h6>Next Product Men's</h6>
+                    <a href="#"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>            
+        </main>
+        <div class="copyright">
+            <p>@KWAKU_YEB - TECHTRO</p>
+        </div>
+        <!-- to top button -->
+        <a href="#" class="to-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </section>
+    <script src="js/jquery-331.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script>
+        $(".slider").slick({
+            speed: 1000,
+            nav: true,
+            dots: true,
+            arrows:true,
+            infinite: false,
+            prevArrow: '<button class="prev_arr arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+            nextArrow: '<button class="next_arr arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+            // slidesToShow:4.3,
+            slidesToScroll: 2,
+   
+           // the magic
+           responsive: [
+               {			
+               breakpoint: 2484,
+               settings: {
+                   dots: false,
+               }
+               }, 
+               {			
+               breakpoint: 2084,
+               settings: {
+                   slidesToShow: 5.2,
+                   dots: false,
+               }
+               }, {
+               
+               breakpoint: 1084,
+               settings: {
+                   slidesToShow: 3.2,
+                   arrows:false,
+                   }
+   
+               }, {
+   
+               breakpoint:600,
+               settings: {
+                   slidesToShow: 2.3,
+                   slidesToScroll: 2,
+                   arrows:false,
+               }
+   
+               }, {
+   
+               breakpoint: 300,
+               settings: "unslick" // destroys slick
+   
+           }]
+       });
+    </script>
+    <script>
+        let artistlist = document.querySelectorAll('.artistlist');
+        let artistBox = document.querySelectorAll('.artistBox');
+
+        for(let i =0; i<artistlist.length; i++){
+            artistlist[i].addEventListener('click', function(){
+                for(let j =0; j<artistlist.length; j++){
+                    artistlist[j].classList.remove('activated');
+                }
+                this.classList.add('activated');
+
+                let dataFilter = this.getAttribute('data-filter');
+                
+                for( let k= 0; k<artistBox.length; k++){
+                    artistBox[k].classList.remove('active');
+                    artistBox[k].classList.add('hide');
+
+                    if(artistBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all"){
+                        artistBox[k].classList.remove('hide');
+                        artistBox[k].classList.add('active');
+                    }
+                }
+            })
+        }
+    </script>
+</body>
+</html>
